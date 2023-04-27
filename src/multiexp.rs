@@ -138,10 +138,10 @@ fn multiexp_inner<Q, D, G, S>(
                 acc.add_assign(&running_sum);
             }
 
-            if skip == 0 {
-                let duration_ns = start.elapsed().as_nanos() as f64;
-                println!("Elapsed {} ns for special loop", duration_ns);
-            }
+            //if skip == 0 {
+            //    let duration_ns = start.elapsed().as_nanos() as f64;
+            //    println!("Elapsed {} ns for special loop", duration_ns);
+            //}
 
             Ok(acc)
         })
