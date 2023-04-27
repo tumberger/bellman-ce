@@ -42,7 +42,7 @@ pub mod kate_commitment;
 
 pub mod constants;
 mod group;
-mod source;
+pub mod source;
 pub mod multiexp;
 mod prefetch;
 
